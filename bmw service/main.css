@@ -1,11 +1,11 @@
 * {
     color: black;
     font-family: 'Courier New', Courier, monospace;
+    background-color: white;
 }
 
 header {
     position: relative;
-    background-color: aquamarine;
 }
 
 nav {
@@ -22,11 +22,16 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
     padding-right: 20px;
 }
 
 body {
-
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 }
 
 h1 {
