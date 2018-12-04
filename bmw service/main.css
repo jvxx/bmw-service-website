@@ -1,0 +1,47 @@
+* {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: relative;
+    background-color: aquamarine;
+}
+
+nav {
+    float: right;
+    
+}
+
+nav li {
+    list-style: none;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+button {
+
+}
+
+
+footer {
+
+}
