@@ -1,0 +1,59 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* nav { 
+    background: url(images/bmwrim.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+  
+  h1 {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  fieldset {
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  label,
+  input {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  input {
+    margin-bottom: 15px;
+  }
+  
+  .butt {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    
+  }
+  
+  .selection {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    }
+    
+  .field {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    margin-right: 55px;
+  }

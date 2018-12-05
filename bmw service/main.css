@@ -1,30 +1,12 @@
-* {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+:root {
+    --background: rgba(85, 214, 170, .85);
 }
 
-header {
-    position: relative;
-}
-
-nav {
-    float: right;
-    
-}
-
-nav li {
-    list-style: none;
-    float: left;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-right: 20px;
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -34,19 +16,40 @@ body {
 	font-weight: 400;
 }
 
-h1 {
-
+.content {
+    height: 200vh;
+    background-image: url(//unsplash.it/1000/1000);
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    place-items: center;
 }
 
-h2 {
+/* Navigation starts here */
 
+header {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
-button {
+/* nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 20px;
+} */
 
-}
 
 
-footer {
 
-}
+/* .card {
+    border: blue solid 1px;
+    margin: 0 auto;
+    margin-left: 35px;
+    margin-right: 35px;
+} */

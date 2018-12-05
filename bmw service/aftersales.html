@@ -1,48 +1,69 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>BMW Park Lane</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="service.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="aftersales.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <img src="">
     <script src="main.js"></script>
 </head>
+<header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="#">Aftersales</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  
+  </header>
 <body>
-    <h1>BMW &amp Mini Park Lane </h1>
-    <h2>Services</h2>
-    <h3>Book your visit now</h3>
+    <h1>BMW &amp Mini Park Lane Aftersales </h1>
+    <h2>Book your visit now</h2>
+    
     <form action="#" method="post">
       
-      <fieldset>
+      <fieldset class="field">
         <legend>
-          Your information
+          Contact details
         </legend>
-          <label for="forename">Your forename</label>
+          <label for="forename">Forename</label>
           <input type="text" id="forename" name="user_forename">
   
-          <label for="surname">Your surname</label>
+          <label for="surname">Surname</label>
           <input type="text" id="surname" name="user_surname">
   
-          <label for="email">Your email address</label>
+          <label for="email">Email Address</label>
           <input type="email" id="email" name="user_email">
+          
+          <label for="phone">Landline Number</label>
+          <input type="tel" id="phone" name="user_phone">
+          
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" id="mobile" name="user_mobile">
       </fieldset>
       
-      <fieldset>
+      <fieldset class="field">
         <legend>
-          Your vehicle
+          Vehicle details
         </legend>
-          <label for="reg">Your registration number</label>
+          <label for="reg">Registration Number</label>
           <input type="text" id="reg" name="user_reg">
   
-          <label for="vin">Your Vehicle Identification Number (VIN)</label>
+          <label for="vin">Vehicle Identification Number (VIN)</label>
           <input type="text" id="vin" name="user_vin">
           
-          <label for="miles">Your Vehicle Mileage</label>
+          <label for="miles">Mileage</label>
           <input type="number" id="miles" name="user_miles">
       </fieldset>
       
-      <select name="workdue">
+      <select name="workdue" class="selection">
+        <option value="" disabled selected>Select your option</option>
         <option>Service</option>
         <option>MOT</option>
         <option>Recall</option>
@@ -53,17 +74,23 @@
         
       </select>
       
-      <button type="submit">Submit booking</button>
+      <button type="submit" class="butt">Submit</button>
+      <br>
       
-      <h3>Already registered? Please log in</h3>
+      <fieldset class="field">
 
-      <label for="email">Your email address</label>
-      <input type="email" id="email" name="user_email">
+        <h2>Already registered? Please log in</h2>
+        <legend>
+          Existing User
+        </legend>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="user_email">
 
-      <label for="password">Your password</label>
-      <input type="password" id="password" name="user_password">
-      
-      <button type="submit">Log in to continue</button>      
+        <label for="password">Password</label>
+        <input type="password" id="password" name="user_password">
+        
+        <button type="submit" class="butt">Log in</button>
+      </fieldset>
     </form>
 </body>
 </html>
