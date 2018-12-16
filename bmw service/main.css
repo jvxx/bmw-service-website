@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+.logo {
+    padding: 15px;
+}
+
 body {
 	margin: 0;
 	background: #222;
@@ -18,7 +22,7 @@ body {
 
 .content {
     height: 200vh;
-    background-image: url(//unsplash.it/1000/1000);
+    background-image: url("images/BMW.svg");
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
@@ -178,10 +182,34 @@ nav a:hover {
     }
 }
 
+/* CARD STYLES */
 
-/* .card {
-    border: blue solid 1px;
+.container {
+    margin: 0;
+}
+
+.card1 {
+    float: left;
+    border: white solid 3px;
     margin: 0 auto;
-    margin-left: 35px;
-    margin-right: 35px;
-} */
+    margin-top: 25em;
+    margin-left: 6em;
+    margin-right: 1em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding:110px;
+}
+
+.card2 {
+    float: right;
+    border: white solid 3px;
+    margin: 0 auto;
+    margin-top: 25em;
+    margin-left: 1em;
+    margin-right: 6em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding:110px;
+}
