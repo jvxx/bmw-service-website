@@ -15,7 +15,7 @@
 
 body {
 	margin: 0;
-	background: #222;
+	/* background: #222; */
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
@@ -196,7 +196,7 @@ nav a:hover {
 .card1 {
     box-sizing: border-box;
     display: inline-block;
-    border: white solid 3px;
+    border: black solid 3px;
     margin: 0 auto;
     margin-top: 25em;
     margin-left: 2em;
@@ -210,7 +210,7 @@ nav a:hover {
 .card2 {
     box-sizing: border-box;
     display: inline-block;
-    border: white solid 3px;
+    border: black solid 3px;
     margin: 0 auto;
     margin-top: 25em;
     margin-left: 1em;
@@ -226,6 +226,6 @@ button {
     padding: 10px;
     align-items: center;
     text-transform: uppercase;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 154, 218, 1);
 }
