@@ -213,13 +213,27 @@ nav a:hover {
     border: black solid 3px;
     margin: 0 auto;
     margin-top: 25em;
+    margin-left: 2em;
+    margin-right: 1em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding:110px;
+}
+
+/* .card2 {
+    box-sizing: border-box;
+    display: inline-block;
+    border: black solid 3px;
+    margin: 0 auto;
+    margin-top: 25em;
     margin-left: 1em;
     margin-right: 2em;
     color: white;
     font-weight: 400;
     text-transform: uppercase;
     padding:110px;
-}
+} */
 
 button {
     margin-top: 35px;
