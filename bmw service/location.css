@@ -178,3 +178,25 @@ nav a:hover {
         transform: scale(1,1);
     }
 }
+
+h1 {
+    text-align: center;
+    padding: 15px;
+  }
+  
+h2, h3 {
+    text-align: center;
+  }
+
+p {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card {
+    border: 1 black solid;
+    float: center;
+    margin: 0 auto;
+    padding: 15px;
+}
